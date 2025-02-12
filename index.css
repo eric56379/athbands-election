@@ -1,0 +1,20 @@
+body {
+  font-family: system-ui;
+  background: #853118;
+  color: white;
+  text-align: center;
+}
+
+#output {
+  font-family: Ariel;
+}
+
+ol {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+li {
+  text-align: left;
+}
