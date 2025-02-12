@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athbands Election Result Processor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1 class="my-4">
+    Athletic Bands Election Result Processor
+  </h1>
+  <div class="mb-3">
+    <label for="formFileSm" class="form-label mx-auto">Upload the CSV file here.</label>
+    <input class="form-control form-control-sm mx-auto" id="fileInput" type="file" accept=".csv" style="width: 25%">
+    <div style="text-align: center;" id="outputField" style="margin-top: 5px;">
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <div id="options" style="text-align: left;"><!-- Will add stuff programmatically.--></div>
+      </div>
+      <div id="results"><!-- Will add stuff programmatically.--></div>
+    </div>
+
+  </div>
+    <span id="output"></span>
+  
+    <hr>
+    <div style="text-align: center;">
+      <p class="h4">Directions:</p>
+      <ol>
+        <li>Log into <a href="https://duluthumn.campusgroups.com/" target="_blank" style="color: white;">Campus Groups</a> and access the election under "Surveys & Forms".</li>
+        <li>Click on the election URL to view all the results. Make sure that all invalid results are stripped from the election.</li>
+        <li>A button that says "Generate Report" is near the top of the page. <u>Before clicking on the button</u>, there is a checkbox to the left. Click on this checkbox.</li>
+        <li>Click on "Select all XX Submissions" to select all the results.</li>
+        <li>Now, click "Generate Report", which will download a CSV file.</li>
+        <li>Upload the CSV file to this website.</li>
+      </ol>
+    </div>
+  </body>
+</html>
